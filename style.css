@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Oswald:wght@600&family=Raleway&display=swap');
+
+
+
+body{
+    text-align: center  ;
+}
+
+.wrapper{
+    width:100%;
+    margin:0 auto;
+    
+}
+
+header{
+    height:70px;
+    background-color: white;
+    width:100%;
+  
+    border-bottom:3px solid red;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    line-height:70px;
+    font-family: RaleWay;
+    font-size: 20px;
+    font-weight:1000;
+
+}
+.logo a{
+    text-decoration: none;
+    color:black;
+}
+
+.wrapper nav{
+    width:50%;
+    float:right;
+    list-style: none;
+    line-height: 70px;
+  
+}
+
+.wrapper nav a{
+   
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.wrapper nav a i{
+    color:red;
+    font-size:20px;
+    font-weight: 1500;
+}
+
+.wrapper nav a:not(:last-child){
+    margin-right: 20px;
+}
+
+.wrapper nav a:hover{
+    transition:0.3s;
+    color:gray;
+}
+
+.wrapper nav a i:hover{
+    color:#e67e22;
+}
+
+/* navbar ends here */
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider{
+    width:1700px;
+    max-height:750px;
+   
+    overflow:hidden;
+}
+
+.slides{
+    display:flex;
+    width:500%;
+    max-height:800px;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide img{
+    width:1800px;
+    max-height:750px;
+}
+.slide{
+    width:20%;
+    transition: 2s;
+}
+.navigation_manual{
+  position: absolute;
+  display: flex;
+  margin-top: 5px;
+  margin-left:20%;
+}
+.navigation_manual label{
+   border:2px solid black;
+   padding:5px;
+   border-radius: 10px;
+}
+
+.navigation_manual label:not(:last-child){
+    margin-right: 20px;
+}
+
+#radio1:checked ~ .first{
+    margin-left:0%;
+}
+
+#radio2:checked ~ .first{
+    margin-left:-20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left:-60%;
+}
+
+.navigation_auto{
+    position: absolute;
+  display: flex;
+  margin-top: 5px;
+  margin-left:20%;
+}
+
+.navigation_auto div{
+    border:2px solid black;
+    padding:5px;
+    border-radius: 10px;
+ }
+
+ .navigation_auto div:not(:last-child){
+    margin-right: 20px;
+}
+
+#radio1:checked ~ .navigation_auto .btn1{
+    background-color: white;
+}
+
+#radio2:checked ~ .navigation_auto .btn2{
+    background-color: white;
+}
+
+#radio3:checked ~ .navigation_auto .btn3{
+    background-color: white;
+}
+
+#radio4:checked ~ .navigation_auto .btn4{
+    background-color: white;}
+
+
+/* slider end here  */
+/* feature starts here */
+.collections{
+    font-family:Exo-2;
+    font-size: 40px;
+}
+
+.slider1{
+    border-radius: 10px;
+   overflow: hidden;
+}
+.slides1{
+    display:flex;
+    width:500%;
+}
+
+.slide1{
+    width:20%;
+    transition:2s;
+}
+
+.slides1 input{
+  display: none;
+}
+
+.navigation_auto1{
+    margin-top: 5px;
+    position: absolute;
+    margin-left: 20px;
+    
+   
+}
+.navigation_auto1 label{
+    
+    border:1px solid black;
+    padding:10px;
+}
+
+#radio5:checked ~ .first1{
+    margin-left:0%;
+}
+
+#radio6:checked ~ .first1{
+    margin-left:-20%;
+}
+
+#radio7:checked ~ .first1{
+    margin-left:-40%;
+}
+
+#radio8:checked ~ .first1{
+    margin-left:-60%;
+}
+#radio5:checked ~ .navigation_auto1 .btn5{
+   background-color: gray;
+}
+
+#radio6:checked ~ .navigation_auto1 .btn6{
+    background-color: gray;
+}
+
+#radio7:checked ~ .navigation_auto1 .btn7{
+    background-color: gray;
+}
+
+#radio8:checked ~ .navigation_auto1 .btn8{
+    background-color: gray;
+}
+
+.men{
+    font-family:RaleWay;
+}
+
+
+
+
+
+
+
+
+
+
+.slider2{
+    border-radius: 10px;
+   overflow: hidden;
+}
+.slides2{
+    display:flex;
+    width:500%;
+}
+
+.slide2{
+    width:20%;
+    transition:2s;
+}
+
+.slides2 input{
+  display: none;
+}
+
+.navigation_auto2{
+    margin-top: 5px;
+    position: absolute;
+    margin-left: 20px;
+   
+}
+.navigation_auto2 label{
+    border:1px solid black;
+    padding:10px;
+}
+
+#radio9:checked ~ .first2{
+    margin-left:0%;
+}
+
+#radio10:checked ~ .first2{
+    margin-left:-20%;
+}
+
+#radio11:checked ~ .first2{
+    margin-left:-40%;
+}
+
+#radio12:checked ~ .first2{
+    margin-left:-60%;
+}
+
+#radio13:checked ~ .first2{
+    margin-left:-80%;
+}
+#radio9:checked ~ .navigation_auto2 .btn9{
+   background-color: gray;
+}
+
+#radio10:checked ~ .navigation_auto2 .btn10{
+    background-color: gray;
+}
+
+#radio11:checked ~ .navigation_auto2 .btn11{
+    background-color: gray;
+}
+
+#radio12:checked ~ .navigation_auto2 .btn12{
+    background-color: gray;
+}
+
+#radio13:checked ~ .navigation_auto2 .btn13{
+    background-color: gray;
+}
+
+.women{
+    font-family:RaleWay;
+}
+
+
+
+
+
+.videoLetters h3{
+  
+}
+
+
+#border1{
+    border-top:3px solid gray;
+}
+.video{
+    width:500px;
+    height:300px;
+    border-radius: 10px;
+    color:grey;
+}
+.textOFVideo{
+    margin-top:20px;
+    
+}
+
+.button1{
+    width:200px;
+    height: 50px;
+    background-color:white ;
+}
+
+.button1 a{
+    text-decoration: none;
+    color:black;
+}
+
+.button1:hover{
+    background-color: #453630;
+   
+}
+.button1:hover a{
+    color:white;
+}
+
+#gift{
+    border-radius: 10px;
+  
+}
+#gift h2{
+    font-family:Oswald;
+    color:green;
+}
+
+.giftHim{
+    height: 50px;
+    width:150px;
+    background-color: white;
+
+}
+.giftHim a{
+    font-family:Exo-2;
+    color:black;
+    text-decoration: none;
+}
+
+.giftHim:hover{
+    background-color:#1D6400;
+    transition: 1s;
+}
+.giftHim:hover a{
+    color:white;
+}
+.giftHer{
+   height: 50px;
+    width:150px;
+    background-color: white;
+
+
+}
+.giftHer a{
+    font-family:Exo-2;
+    color:black;
+    text-decoration: none;
+}
+
+.giftHer:hover{
+   background-color:#1D6400;
+   transition: 1s;
+}
+.giftHer:hover a{
+    color:white;
+}
+
+.shop1{
+    height: 50px;
+    width:150px;
+    background-color: white;
+}
+
+.shop1 a{
+    text-decoration:none;
+    color:black;
+
+}
+
+.shop1:hover{
+    background-color: black;
+    transition: 1s;
+}
+
+.shop1:hover a{
+    color:white;
+    transition: 1s;
+}
+
+
+footer{
+    background-color: #453630;
+}
+
+.logoFooter p{
+    font-size:23px;
+    font-family:raleway;
+    font-weight: 1000;
+    color:white;
+}
+
+.logoFooter {
+    margin-top:50px;
+}
+
+.borderFooter{
+    border-top:2px solid gray;
+}
+
+.social i{
+    color:gray;
+}
+.social a{
+    text-decoration: none;
+    color:gray;
+    font-family:oswale;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
